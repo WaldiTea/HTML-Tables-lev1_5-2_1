@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lev1_5+2_1</title>
+    <style>
+      .lesson {
+        text-align: center;
+      }
+      .index {
+        margin: 0;
+      }
+
+      table {
+        margin-bottom: 50px;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      th {
+        background: grey;
+      }
+      th, td {
+        width: 150px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- lev1_5 -->
+    <h3 class="lesson">lev1_5</h3>
+
+    <!-- 1) -->
+    <h3 class="index">1)</h3>
+    <table>
+      <tr>
+        <th>Vorname</th>
+        <th>Nachname</th>
+      </tr>
+      <tr>
+        <td>Max</td>
+        <td>Mustermann</td>
+      </tr>
+      <tr>
+        <td>Maxine</td>
+        <td>Mustermann</td>
+      </tr>
+    </table>
+
+    <!-- 2) -->
+    <h3 class="index">2)</h3>
+    <table>
+      <tr>
+        <th>Header content 1</th>
+        <th>Header content 2</th>
+      </tr>
+      <tr>
+        <td>Body content 1</td>
+        <td>Footer content 1</td>
+      </tr>
+      <tr>
+        <td>Body content 2</td>
+        <td>Footer content 2</td>
+      </tr>
+    </table>
+
+    <hr>
+    <!-- lev2_1 -->
+    <h3 class="lesson">lev2_1</h3>
+
+    <!-- 1) -->
+    <h3 class="index">1)</h3>
+    <table>
+      <tr>
+        <th rowspan="2">Name</th>
+        <th rowspan="2">ID</th>
+        <th colspan="2">Membership Dates</th>
+        <th rowspan="2">Balance</th>
+      </tr>
+      <tr>
+        <th>Joined</th>
+        <th>Canceled</th>
+      </tr>
+      <tr>
+        <th>Margaret Nguyen</th>
+        <td>427311</td>
+        <td>June 3, 2010</td>
+        <td>n/a</td>
+        <td>0.00</td>
+      </tr>
+      <tr>
+        <th>Edvard Galinski</th>
+        <td>533175</td>
+        <td>January 13, 2011</td>
+        <td>April 8, 2017</td>
+        <td>37.00</td>
+      </tr>
+      <tr>
+        <th>Hoshi Nakamura</th>
+        <td>601942</td>
+        <td>July 23, 2012</td>
+        <td>n/a</td>
+        <td>15.00</td>
+      </tr>
+    </table>
+
+    <!-- 2) -->
+    <h3 class="index">2)</h3>
+    <table>
+      <tr>
+        <th>comp</th>
+        <th>num</th>
+        <th>website</th>
+        <th>adress</th>
+      </tr>
+      <tr>
+        <td rowspan="2">comp1</td>
+        <td>01234567890</td>
+        <td rowspan="2">
+          <a href="#">website1.1</a>
+          <br>
+          <br>
+          <a href="#">website1.2</a>
+        </td>
+        <td rowspan="2">adress1</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>comp2</td>
+        <td>01234567890</td>
+        <td><a href="#">website2</a></td>
+        <td>adress2</td>
+      </tr>
+    </table>
+
+    <!-- 3) -->
+    <h3 class="index">3)</h3>
+    <table>
+      <tr>
+        <th>User:</th>
+        <td colspan="3">user 1</td>
+        <td colspan="2">user 2</td>
+      </tr>
+      <tr>
+        <th>num:</th>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+      </tr>
+    </table>
+
+    <!-- 4) -->
+    <h3 class="index">4)</h3>
+    <table>
+      <tr>
+        <th>User</th>
+        <th>num</th>
+      </tr>
+      <tr>
+        <td rowspan="3">user 1</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td rowspan="2">user 2</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td rowspan="5">user 3</td>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+      <tr>
+        <td>01234567890</td>
+      </tr>
+    </table>
+
+    <!-- 5) -->
+    <h3 class="index">5)</h3>
+    <table>
+      <tr>
+        <th>comp:</th>
+        <td>comp1</td>
+        <td colspan="2">comp2</td>
+        <td>comp3</td>
+        <td colspan="2">comp4</td>
+      </tr>
+      <tr>
+        <th>num:</th>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td>01234567890</td>
+        <td colspan="2">01234567890</td>
+      </tr>
+      <tr>
+        <th>Website</th>
+        <td><a href="#">website1</a></td>
+        <td colspan="2"><a href="#">website2</a></td>
+        <td><a href="#">website3</a></td>
+        <td><a href="#">website4</a></td>
+        <td><a href="#">website5</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
